@@ -22,7 +22,7 @@ class Stack:
     def push(self, data):
         if not self.is_full():
             # Write code here
-            self.items.append(data)
+            self.items.append()
 
     def pop(self):
         if not self.is_empty():
